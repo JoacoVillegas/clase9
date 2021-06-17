@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: lightgreen;
+  text-align: center;
+  padding: 2px
+}
+
+nav {
+  padding: 20px 20px;
+
+}
+
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 30px;
+  padding: 20px;
+  background-color: pink;
+}
+
+section{
+  background-color: rgb(92, 150, 35);
+  flex: 65%;
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  
+}
